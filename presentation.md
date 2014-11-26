@@ -19,6 +19,7 @@
 	*wants to make sure her dear requirements get implemented*
 * Suzie, the stakeholder
 	*wants to make sure her money is being well spent - on-time and ASAP*
+
 ---
 
 ## Patty, the PM
