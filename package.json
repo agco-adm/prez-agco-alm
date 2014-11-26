@@ -1,30 +1,31 @@
 {
-  "name": "reveal.js",
+  "name": "AGCO-ALM",
   "version": "2.6.2",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://lab.hakim.se/reveal-js",
-  "subdomain": "revealjs",
+  "description": "A presentation on AGCO's Application Lifecycle Management",
+  "homepage": "http://agcocorp.com",
+  "subdomain": "ALM",
   "scripts": {
     "test": "grunt test",
-    "start": "grunt serve"
+    "start": "./node_modules/grunt-cli/bin/grunt serve"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Diogo Lucas",
+    "email": "diogo.lucas@agcocorp.com",
+    "web": "http://about.me/diogo.lucas"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/agco-adm/prez-agco-alm.git"
   },
   "engines": {
     "node": "~0.8.0"
   },
   "dependencies": {
-    "underscore": "~1.5.1",
     "express": "~2.5.9",
+    "grunt-cli": "^0.1.13",
     "mustache": "~0.7.2",
-    "socket.io": "~0.9.13"
+    "socket.io": "~0.9.13",
+    "underscore": "~1.5.1"
   },
   "devDependencies": {
     "grunt-contrib-qunit": "~0.2.2",
@@ -39,8 +40,8 @@
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://github.com/hakimel/reveal.js/blob/master/LICENSE"
+      "type": "CC",
+      "url": "https://path-to-license-file"
     }
   ]
 }
