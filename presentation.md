@@ -81,18 +81,6 @@
 
 ---
 
-## Patty
-
-"Who's doing what?"
-
-"Are we late or are we early?"
-
-"How much road we have ahead of us?"
-
-"Any blocks?"
-
----
-
 ## Trevor
 
 "How do I plan my tests?"
@@ -102,6 +90,20 @@
 "How are bugs prioritized?"
 
 "How do I make sure all critical scope has been tested?"
+
+---
+
+
+## Patty
+
+"Who's doing what?"
+
+"What requirements are completed?"
+
+"How many defects we have open?"
+
+"Any blocks?"
+
 
 ---
 
