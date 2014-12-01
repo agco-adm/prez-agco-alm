@@ -93,7 +93,6 @@
 
 ---
 
-
 ## Patty
 
 "Who's doing what?"
@@ -103,7 +102,6 @@
 "How many defects we have open?"
 
 "Any blocks?"
-
 
 ---
 
