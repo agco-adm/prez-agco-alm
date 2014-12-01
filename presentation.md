@@ -12,48 +12,21 @@
 	*wants to keep her project on track, on scope, on budget*
 
 * Derek, the Developer
+
 	*wants to develop, with as few interruptions as possible*
+
 * Trevor, the Tester
+
 	*wants to make sure everything is working fine*
+
 * Barbara, the BA
+
 	*wants to make sure her dear requirements get implemented*
+
 * Suzie, the stakeholder
+
 	*wants to make sure her money is being well spent - on-time and ASAP*
 
----
-
-## Patty, the PM
-
-* needs to track daily progress in her projects
-* needs to provide evidence for multiple gate checks
-
----
-
-## Derek, the Developer
-* wants to code without too many interruptions
-* needs to provide status
-* needs to share code easily
-* needs easy access to prod-like environments
-
----
-
-## Trevor, the tester
-* needs to make sure all critical scope is tested
-* needs to provide test planning/execution evidence
-* needs to know when features/fixes are available for testing
-
----
-
-## Barbara, the BA
-* needs to track scope
-* needs to make sure requirements are properly prioritized
-* needs to know what features are available and where
-
----
-
-## Suzie, the Stakeholder
-* wants to make sure she's getting ~~the best bang for her buck~~ proper ROI
-* wants to know status, real-time and ASAP
 
 
 # Enter ALM
