@@ -55,7 +55,7 @@
 ---
 
 ## the tools
-* diagram here
+![ALM](images/ALM.png)
 
 
 # DEMO
