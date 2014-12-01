@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>ALM @ AGCO</title>
+
+	<meta name="description" content="A presentation on Application Lifecycle Management at AGCO">
+	<meta name="author" content="Diogo Lucas">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+	<script>
+		if( window.location.search.match( /print-pdf/gi ) ) {
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = 'css/print/pdf.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		}
+	</script>
+
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/walkway/0.0.1/walkway.min.js">
+	</script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			var svg2 = new Walkway({
+				selector: '#svg2',
+    duration: '5000'//,
+    //easing: 'linear'
+});
+
+			svg2.draw(function() {
+				console.dir('done drawing!');
+			});
+		});
+	</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js">
+		</script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>about</h2>
+					<ul>
+						<li><em>what</em> is ALM?</li>
+						<li><em>why</em> should I care?</li>
+						<li><em>how</em> do I do it?</li>
+						<li><em>who</em> is it for?</li>
+					</ul>
+							</section>
+							<section>
+								<h2>meet our characters</h2>
+								<ul>
+									<li>
+										<p>Patty, the PM</p>
+										<p>  <em>wants to keep her project on track, on scope, on budget</em>
+										</p>
+									</li>
+									<li>
+										<p>Derek, the Developer</p>
+										<p>  <em>wants to develop, with as few interruptions as possible</em>
+										</p>
+									</li>
+									<li>
+										<p>Trevor, the Tester</p>
+										<p>  <em>wants to make sure everything is working fine</em>
+										</p>
+									</li>
+									<li>
+										<p>Barbara, the BA</p>
+										<p>  <em>wants to make sure her dear requirements get implemented</em>
+										</p>
+									</li>
+									<li>
+										<p>Suzie, the stakeholder</p>
+										<p>  <em>wants to make sure her money is being well spent - on-time and ASAP</em>
+										</p>
+									</li>
+								</ul>
+							</section>
+							<section>
+								<h1>Enter ALM</h1>
+							</section>
+							<section>
+								<h2>current state</h2>
+								<ul>
+									<li>
+										<p>Manual process</p>
+										<ul>
+											<li>Labor intensive</li>
+											<li>Ad-hoc and misaligned</li>
+											<li>Fail-prone and vulnerable</li>
+										</ul>
+									</li>
+									<li>
+										<p>Lots of red tape, difficulty in procuring access/tools</p>
+									</li>
+								</ul>
+							</section>
+							<section>
+								<h2>goals</h2>
+								<ul>
+									<li>automation<ul>
+										<li>builds, tests, metrics, deployments</li>
+									</ul>
+								</li>
+								<li>streamlined process/tools<ul>
+									<li>easy setup, easy reviews</li>
+								</ul>
+							</li>
+							<li>easy to reproduce prod-like environments<ul>
+								<li>
+									<del>works on my machine</del>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h2>the tools</h2>
+					<p>
+						<img src="images/ALM.png" alt="ALM">
+					</p>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1>DEMO</h1>
+				</section>
+				<section>
+					<h2>Barbara</h2>
+					<p>"I need to add requirements to a project"</p>
+					<p>"What requirements are being implemented right now?"</p>
+					<p>"What has already been delivered?"</p>
+				</section>
+				<section>
+					<h2>Derek</h2>
+					<p>"How do I report progress?"</p>
+					<p>"How do I share my code?"</p>
+					<p>"How is my code doing?"</p>
+				</section>
+				<section>
+					<h2>Trevor</h2>
+					<p>"How do I plan my tests?"</p>
+					<p>"How do I track test execution?"</p>
+					<p>"How are bugs prioritized?"</p>
+					<p>"How do I make sure all critical scope has been tested?"</p>
+				</section>
+				<section>
+					<h2>Patty</h2>
+					<p>"Who's doing what?"</p>
+					<p>"What requirements are completed?"</p>
+					<p>"How many defects we have open?"</p>
+					<p>"Any blocks?"</p>
+				</section>
+				<section>
+					<h2>All team members</h2>
+					<p>"Eeek, there's an ARB coming!"</p>
+				</section>
+			</section>
+			<section>
+				<h1>Q&amp;A</h1>
+				<ol>
+					<li>How does this all fit with EPM?</li>
+					<li>Why Atlassian?</li>
+					<li>Can I use that for SAP and other ERPs?</li>
+					<li>How do I get access to all those goodies?</li>
+				</ol>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js">
+	</script>
+	<script src="js/reveal.min.js">
+	</script>
+
+	<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+</script>
+
+</body>
+</html>
