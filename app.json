@@ -1,0 +1,7 @@
+{
+  "name": "ALM @ AGCO",
+  "description": "A presentation about AGCO's ALM, using Reveal.js and Walkway.js for extra bling",
+  "repository": "https://github.com/agco-adm/prez-agco-alm.git",
+  "logo": "https://prez-agco-alm.herokuapp.com/images/ALM.svg",
+  "keywords": ["presentation", "ALM", "AGCO", "Jira", "Bamboo", "Stash", "Zephyr", "box.com", "Confluence", "CI", "Continuous-Integration", "CD", "Continuous-Delivery", "Deployment", "Automation"]
+}
